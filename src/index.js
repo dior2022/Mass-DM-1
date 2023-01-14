@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('messageCreate', async (message) => {
 if(message.content == '!dm') {
-const guild = client.guilds.cache.get('GUILD ID HERE');
+const guild = client.guilds.cache.get('1061726639937032303');
 try {
 
 guild.members.fetch().then(async (member) => {
@@ -25,4 +25,4 @@ guild.members.fetch().then(async (member) => {
 
 }});
 
-client.login(process.env.TOKEN);
+client.login(process.env.MTA2Mzg5Mzk4MjQwMjMxNDI1MA.Gi5mgd.bXcLEoaFYfn2IYhwWjlkLGo-xRx1aCAsOxMXXI);
